@@ -2,8 +2,8 @@ require 'formula'
 
 class Pjsip < Formula
   homepage 'http://www.pjsip.org'
-  url 'http://www.pjsip.org/release/2.4/pjproject-2.4.tar.bz2'
-  sha1 '7a6cbb5128db41372f678ca07128924a0427585f'
+  url 'http://www.pjsip.org/release/2.4.5/pjproject-2.4.5.tar.bz2'
+  sha1 'f0fdca9952efeec7d0b124a59d986a368bcdb231'
 
   # 1. We aren't cross compiling
   #    pjsip thinks we are, this is fixed somewhere between revision 4305 and
