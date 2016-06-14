@@ -1,7 +1,7 @@
 
 require 'formula'
 
-class Pjsip < Formula
+class Grpc < Formula
   homepage 'http://grpc.io'
   url ' https://github.com/grpc/grpc/archive/release-0_14_1.tar.gz'
   sha256 '006cde82481d72f3490e7d933fe91a81bec3b30a6928251796ea47a0098267de'
