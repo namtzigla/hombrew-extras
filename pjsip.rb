@@ -7,7 +7,7 @@ class Pjsip < Formula
   sha256 '2f5a1da1c174d845871c758bd80fbb580fca7799d3cfaa0d3c4e082b5161c7b4'
 
   def install
-    ENV.j1
+    ENV.deparallelize
     system "./configure", "--prefix=#{prefix}"
     Pathname('pjlib/include/pj/config_site.h').write <<-EOS.undent
       #define PJ_CONFIG_MAXIMUM_SPEED
