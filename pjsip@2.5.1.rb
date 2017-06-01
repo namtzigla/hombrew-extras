@@ -1,6 +1,6 @@
 require 'formula'
 
-class Pjsip < Formula
+class PjsipAT251 < Formula
   homepage 'http://www.pjsip.org'
   url 'http://www.pjsip.org/release/2.5.1/pjproject-2.5.1.tar.bz2'
   sha256 'c5a63bed7a0832ff53ddcd69612cf43148019d0f320b22beb5ca2223bc857dcb'
